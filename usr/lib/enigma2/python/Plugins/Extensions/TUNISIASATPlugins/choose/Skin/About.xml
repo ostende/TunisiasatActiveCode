@@ -1,0 +1,13 @@
+<screen name="Linuxsat_Code_About" position="0,0" size="1920,1080" flags="wfNoBorder" title="Help_About" backgroundColor="transparent" zPosition="200">
+<widget name="text" position="560,265" zPosition="4" size="800,550" font="Regular;28" foregroundColor="white" backgroundColor="black" transparent="0" />
+<widget source="Vers" render="Label" position="1130,214" foregroundColor="white" size="230,50" noWrap="0" font="Regular; 28" backgroundColor="black" transparent="0" zPosition="4" />
+<widget source="global.CurrentTime" render="Label" zPosition="4" position="560,214" size="275,50" font="Regular; 35" halign="left" valign="center" backgroundColor="black" transparent="0">
+<convert type="ClockToText">Format:%H : %M : %S</convert>
+</widget>
+<widget source="global.CurrentTime" render="Label" position="560,793" size="700,40" zPosition="5" font="Regular; 26" backgroundColor="black" transparent="0" valign="center" halign="left">
+<convert type="ClockToText">Format:%A %d %B %Y</convert>
+</widget>
+<widget source="Title" render="Label" position="831,214" foregroundColor="white" size="300,50" noWrap="0" font="Regular; 28" backgroundColor="black" transparent="0" halign="center" valign="center" zPosition="4" />
+<eLabel text="Exit" zPosition="5" position="1260,793" size="100,30" font="Regular; 18" transparent="0" backgroundColor="black" halign="center" valign="center" />
+<eLabel position="1260,823" size="100,10" zPosition="4" backgroundColor="#ff0000" transparent="0" />
+</screen>

@@ -1,0 +1,5 @@
+Distnt_ =/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/FreeVpn/ZipFil
+dirs_ =['FreeVPN.me-OpenVPN-Bundle-April-2020']
+List_2 =['FreeVPN.me - Server1-NL', 'FreeVPN.me - Server2-FR']
+_Serv1 =('server1.freevpn.me', ' rQqLSAbDM2KY', 'freevpn.me')
+_Serv2 =('server2.freevpn.me', ' Lz57ENLv7WHH', 'freevpn.me')

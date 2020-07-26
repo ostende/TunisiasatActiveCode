@@ -1,0 +1,22 @@
+<screen name="BooT_TUNISIASATPlugins" position="0,0" size="1280,720" flags="wfNoBorder" title="BooT Cline" backgroundColor="transparent">
+<widget name="menu" zPosition="4" foregroundColorSelected="white" position="471,1140" size="1020,350" enableWrapAround="1" scrollbarMode="showNever" transparent="0" />
+<widget name="Server_off" position="415,135" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Server_off.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="Plugins_off" position="415,385" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Plugins_off.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="vpn_off" position="665,385" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/vpn_off.png" zPosition="-10" transparent="1" />
+<widget name="Actvpn_off" position="665,135" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Actvpn_off.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="Server_on" position="415,135" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Server_on.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="Plugins_on" position="415,385" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Plugins_on.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="vpn_on" position="665,385" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/vpn_on.png" zPosition="-10" transparent="1" />
+<widget name="Actvpn_on" position="665,135" size="200,200" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Actvpn_on.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="serv" position="415,589" size="450,100" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/serv.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="plug" position="415,589" size="450,100" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/plug.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="vp" position="415,589" size="450,100" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/vp.png" zPosition="5" alphatest="on" transparent="1" />
+<widget name="avp" position="415,589" size="450,100" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/avp.png" zPosition="5" alphatest="on" transparent="1" />
+<ePixmap position="415,27" size="450,100" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TUNISIASATPlugins/skin/Logo/Lnx.png" zPosition="1" transparent="1" />
+<widget source="global.CurrentTime" render="Label" zPosition="4" position="867,0" size="410,50" font="Regular; 40" halign="center" valign="center" backgroundColor="#80000000" transparent="1">
+<convert type="ClockToText">Format:%H : %M : %S</convert>
+</widget>
+<widget source="global.CurrentTime" render="Label" position="0,0" size="410,50" zPosition="5" font="Regular; 25" backgroundColor="#80000000" transparent="1" valign="center" halign="center">
+<convert type="ClockToText">Format:%A %d %B %Y</convert>
+</widget>
+</screen>
